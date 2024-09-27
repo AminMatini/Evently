@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35309.182
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C9794160-C6ED-4C57-8100-0F77EEA9CE97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{601C57F8-A05E-4D98-96B8-73AA296F209A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A9F29B5B-0BC3-4ECB-ABA3-2CD02AB23960}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{B075D5F5-BB60-41DB-9856-8241004598AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.API", "src\API\Evently.API\Evently.API.csproj", "{7515C3F1-629A-42EA-8675-6D2C902BDC1F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7515C3F1-629A-42EA-8675-6D2C902BDC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7515C3F1-629A-42EA-8675-6D2C902BDC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7515C3F1-629A-42EA-8675-6D2C902BDC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7515C3F1-629A-42EA-8675-6D2C902BDC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{601C57F8-A05E-4D98-96B8-73AA296F209A} = {C9794160-C6ED-4C57-8100-0F77EEA9CE97}
+		{A9F29B5B-0BC3-4ECB-ABA3-2CD02AB23960} = {C9794160-C6ED-4C57-8100-0F77EEA9CE97}
+		{B075D5F5-BB60-41DB-9856-8241004598AE} = {A9F29B5B-0BC3-4ECB-ABA3-2CD02AB23960}
+		{7515C3F1-629A-42EA-8675-6D2C902BDC1F} = {601C57F8-A05E-4D98-96B8-73AA296F209A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69372C60-52E3-46AE-9B0C-D9E8DD02AAB2}
